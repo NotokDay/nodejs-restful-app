@@ -1,3 +1,7 @@
+//note:
+//we're currently using mysql, so there's no need to change this file
+
+
 const mongoose = require("mongoose")
 require('dotenv').config();
 
