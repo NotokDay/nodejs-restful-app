@@ -1,4 +1,5 @@
 1. Configure database
+2. npm i                -- to install dependencies. 
 2. nodemon app.js
 3. Use request.rest to send requests
 
