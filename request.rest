@@ -1,0 +1,24 @@
+GET http://localhost:8080/api/v1/tasks
+
+
+###
+GET http://localhost:8080/api/v1/tasks/1
+
+###
+POST http://localhost:8080/api/v1/tasks
+Content-Type: application/json
+
+{
+    "task": "do something"
+}
+
+###
+PATCH  http://localhost:8080/api/v1/tasks/1
+Content-Type: application/json
+
+{
+    "task": "bye world"
+}
+
+###
+DELETE  http://localhost:8080/api/v1/tasks/1
